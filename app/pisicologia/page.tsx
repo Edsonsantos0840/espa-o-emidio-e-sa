@@ -6,7 +6,7 @@ import Card2 from '../../components/card2'
 
 import im8 from '../image/prblemas de sono.png'
 import im18 from '../image/prblemas de sono2.png'
-import im27 from '../image/Transtornos de Ansiedade.png'
+import im27 from '../image/transtornos de Ansiedade.png'
 import im28 from '../image/Transtornos de Ansiedade2.png'
 import im29 from '../image/Transtornos do Humor.png'
 import im31 from '../image/Transtornos do Humor2.png'
