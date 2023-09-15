@@ -1,4 +1,4 @@
-import style from '@/style/sobre.module.css'
+import style from '../style/sobre.module.css'
 import im1 from '../../app/image/60.png'
 import im2 from '../../app/image/61.png'
 import Image from 'next/image'
