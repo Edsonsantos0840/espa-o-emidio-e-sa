@@ -3,7 +3,6 @@ import style from '../style/massoterapia.module.css'
 import Button from '../../components/button'
 import Button2 from '../../components/button2'
 import Card2 from '../../components/card2'
-import Card from '../../components/card'
 import {useState} from 'react'
 import { FaAngleDown, FaAngleUp} from "react-icons/fa";
 
