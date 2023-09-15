@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from '@/app/style/card.module.css'
+import style from '../app/style/card.module.css'
 
 export default function Card({titulo, imagem, descrição}: any) {
   return (

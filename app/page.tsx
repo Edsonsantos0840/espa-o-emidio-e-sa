@@ -1,5 +1,5 @@
 'use client'
-import style from '@/style/inicio.module.css'
+import style from './style/inicio.module.css'
 import Image from 'next/image'
 
 import { useState } from 'react'
