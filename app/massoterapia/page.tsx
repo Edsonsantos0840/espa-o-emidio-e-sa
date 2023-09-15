@@ -26,7 +26,7 @@ import im18 from '../image/prblemas de sono2.png'
 import im9 from '../image/problemas de Postura.png'
 import im19 from '../image/Problemas de Postura2.png'
 import im10 from '../image/fibromialgia.png'
-import im20 from '../image/Fibromialgia2.png'
+import im20 from '../image/fibromialgia2.png'
 import im25 from '../image/tensão Pre-Menstrual .png'
 import im26 from '../image/tensão Pre-Menstrual2.png'
 
