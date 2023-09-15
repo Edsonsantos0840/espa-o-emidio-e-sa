@@ -1,8 +1,8 @@
-import style from '@/app/style/sobre.module.css'
+import style from '@/style/sobre.module.css'
 import im1 from '../../app/image/60.png'
 import im2 from '../../app/image/61.png'
 import Image from 'next/image'
-import Button from '../../../components/button'
+import Button from '../../components/button'
 export default function pisicologia() {
   return (
     <div className={style.container}>

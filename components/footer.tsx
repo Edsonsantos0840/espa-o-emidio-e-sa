@@ -1,8 +1,8 @@
-import style from '@/app/style/footer.module.css'
+import style from '@/style/footer.module.css'
 import Link from 'next/link'
 
 import {BsFillTelephoneFill, BsFacebook,BsInstagram, BsWhatsapp, BsFillAlarmFill} from "react-icons/bs"
-import {FaRegEnvelope , FaLinkedin,  FaPhoneAlt, FaUserAlt, FaEnvelope, FaCommentAlt, FaMapMarked } from "react-icons/fa";
+import { FaLinkedin,  FaMapMarked } from "react-icons/fa";
 
 export default function Footer() {
   return (

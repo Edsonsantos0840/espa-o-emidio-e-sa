@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {useState} from 'react'
 import logo from '@/app/image/l2.png'
-import style from '@/app/style/header.module.css'
+import style from '@/style/header.module.css'
 import { FaAlignJustify} from "react-icons/fa6";
 
 

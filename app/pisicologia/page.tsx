@@ -1,7 +1,7 @@
-import style from '@/app/style/pisicologia.module.css'
-import Button from '../../../components/button'
-import Button2 from '../../../components/button2'
-import Card2 from '../../../components/card2'
+import style from '../style/pisicologia.module.css'
+import Button from '../../components/button'
+import Button2 from '../../components/button2'
+import Card2 from '../../components/card2'
 
 
 import im8 from '../image/prblemas de sono.png'

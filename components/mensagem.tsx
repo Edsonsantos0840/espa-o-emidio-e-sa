@@ -1,5 +1,5 @@
 //css
-import style from '@/app/style/mensagem.module.css'
+import style from '@/style/mensagem.module.css'
 //modulos
 
 

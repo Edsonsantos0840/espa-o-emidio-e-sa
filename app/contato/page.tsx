@@ -1,7 +1,7 @@
 'use client'
-import style from '@/app/style/contato.module.css'
+import style from '../style/contato.module.css'
 //componentes
-import Mensagem from '../../../components/mensagem';
+import Mensagem from '../../components/mensagem';
 import logo from '../image/l1.png'
 import { BsCalendarDate, BsFacebook,BsInstagram, BsWhatsapp} from "react-icons/bs"
 import {FaLinkedin,  FaPhoneAlt, FaUserAlt, FaEnvelope, FaCommentAlt, FaMedkit } from "react-icons/fa";
