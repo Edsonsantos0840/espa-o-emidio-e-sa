@@ -20,7 +20,7 @@
     
     .hea .textHea{
         width: 99.7vw;
-        background-color: #1240225e;
+        background-color: #1240229c;
         min-height: 135px;
     }
     .hea h1{
@@ -384,7 +384,7 @@
     .hea{
         background-position-y:5rem;
         padding-top: 5rem;
-        background-size: 99%;
+        background-size: 134%;
     }
     .divisor{
         margin: .2rem;
@@ -392,27 +392,28 @@
     }
     
     .hea .textHea{
-        width: 99vw;
+        width: 99.7vw;
         min-height: 292px;
     }
     .hea h1{
-        padding-top: 3%;
-        font-size: 2.8rem;
-        margin-left: .8rem;
+        padding-top: 5%;
+        font-size: 3.5rem;
+        margin-left: -15%;
     }
     .hea h3{
-        width: 48%;
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        margin-left: .8rem;
+        width: 80%;
+        font-size: 2.3rem;
+        margin-left: 5%;
     }
     .hea .but{
         gap: 40px;
-        margin-top: 2%;
+        margin-top: -2%;
+        margin-left: -24%;
     }
     .hea .but button{
-        padding: 4px;
+        padding: 5px;
         min-width: 250px;
+        font-size: 1.9rem;
     }
     .h2{
         font-size: 1.5rem;
@@ -426,6 +427,7 @@
         margin: auto;
         width: 50%;
         display: flex;
+        justify-content: flex-end;
         transition: 1.4s;
     }
     .contem:hover{

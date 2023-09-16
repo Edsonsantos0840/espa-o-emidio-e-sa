@@ -14,7 +14,7 @@
     .hea .ajusta{
 
         width: 99.2vw;
-        background-color: #1240225e;
+        background-color: #1240229a;
         min-height: 100px;
     }
   
@@ -183,7 +183,7 @@
     }
     .cards p{
         font-family: cursive;
-        font-size: .8rem;
+        font-size: 1rem;
         color: var(--primeira-cor);
         text-align: center;
     }
@@ -375,7 +375,7 @@
         padding: 0px 6px;
     }
     .cards p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .cards .organiza ul{
         display: none;
@@ -540,7 +540,7 @@
         padding: 0px 6px;
     }
     .cards p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .cards .organiza ul{
         display: none;

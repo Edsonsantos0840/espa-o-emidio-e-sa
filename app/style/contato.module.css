@@ -14,7 +14,7 @@
         display: flex;
         align-items: center;
         width: 99.7vw;
-        background-image: linear-gradient(to right, rgba(0, 128, 0, 0.43), rgba(0, 104, 0, 0.545), rgba(2, 126, 2, 0.694));
+        background-image: linear-gradient(to right, rgba(0, 128, 0, 0.562), rgba(0, 104, 0, 0.658), rgba(2, 126, 2, 0.863));
         min-height: 236px;
     }
     .social{
