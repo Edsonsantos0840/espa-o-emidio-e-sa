@@ -3,8 +3,8 @@
     .container{
         z-index: 0;
         position: relative;
-        background-position-y: 4rem;
-        padding-top: 4rem;
+        background-position-y: 5rem;
+        padding-top: 5rem;
         background-image: url('.././image/1.png');
         background-size: 110%;
         background-repeat: no-repeat;
@@ -53,8 +53,8 @@
     }
     .form {
         margin: 1rem auto;
-        width: 90%;
-        background-color: #135d0887;
+        width: 96%;
+        background-color: #135d08;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.297);
         border-radius: 15px 15px 0px 0px;
         padding: 20px;
@@ -135,10 +135,10 @@
 }
 @media (min-width:376px){
     .container{
-        background-position-y: 4rem;
-        padding-top: 4rem;
-        background-image: url('.././image/1.png');
-        background-size: 111%;
+        background-position-y: 5rem;
+        padding-top: 6rem;
+        background-image: url(/_next/static/media/1.c4ce9ed5.png);
+        background-size: 118%;
     }
     .sombra{
         display: block; 
@@ -170,7 +170,7 @@
         transform: scale(1.5);
     }
     .form {
-        width: 90%;
+        width: 96%;
         padding: 20px;
     }
     .form h1{
@@ -225,10 +225,10 @@
 }
 @media (min-width:410px){
     .container{
-        background-position-y: 4rem;
-        padding-top: 4rem;
+        background-position-y: 5rem;
+        padding-top: 6rem;
         background-image: url('.././image/1.png');
-        background-size: 111%;
+        background-size: 116%;
     }
     .sombra{
         display: block; 
@@ -260,7 +260,7 @@
         transform: scale(1.5);
     }
     .form {
-        width: 90%;
+        width: 96%;
         padding: 20px;
     }
     .form h1{
