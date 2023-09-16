@@ -9,7 +9,7 @@
         display: flex;
         align-items:flex-end;
         gap: 1%;
-        height: 65px;
+        height: 90px;
         background-color: #fff;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.501);
         z-index: 1;
@@ -19,7 +19,7 @@
       align-items: center;
     }
     .container .logo img{
-        width: 85px;
+        width: 115px;
     }
     
     
@@ -27,8 +27,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: -0px;
-        margin-left: -20px;
+        margin-top: -15px;
+        margin-left: -47px;
     }
     .container h1{
         font-size: 1.4rem;
@@ -50,7 +50,7 @@
     }
     .container .envolveMen svg{
         height: 65px;
-        font-size: 2.5rem;
+        font-size: 2.9rem;
         color: var(--segunda-cor);
         padding: .3rem .5rem;
         background-color: rgba(100, 100, 100, 0.144);
@@ -102,12 +102,12 @@
     .container{
         width: 99.7%;
         gap: 3%;
-        height: 65px;
+        height: 90px;
     }
     
 
     .container h1{
-        font-size: 1.9rem;
+        font-size: 2.1rem;
     }
     
     .container p{
@@ -115,15 +115,16 @@
         margin: -12px;
     } 
     .container .logo img{
-        width: 93px;
+        width: 115px;
+        margin-left: -15%;
     }
     .container .envolveMen{
       margin-left: 0%;
      display: flex;
     }
     .container .envolveMen svg{
-        height: 65px ;
-        font-size: 2.5rem;
+        height: 90px ;
+        font-size: 2.9rem;
         padding: .3rem .5rem;
     }
     .container .envolveMen svg:hover{
@@ -133,11 +134,11 @@
         padding: .3rem .5rem;
     }
     .container .menuhamburger a{
-        font-size: .8rem;
+        font-size: 1rem;
+        padding: 0.5rem;
     }
     .container .menuhamburger a:hover{
         transform: scale(1.3);
-        padding: .5rem;
      }
     .container .esconde{
    display: none;
