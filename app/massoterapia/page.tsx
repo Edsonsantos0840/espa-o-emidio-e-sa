@@ -51,7 +51,7 @@ export default function Massoterapia() {
         </div>
       </div>
       <div className={style.apresentação} >
-      <div>
+      <div className={style.apresenta}>
       <h2>Afinal, o que é a Massoterapia?.</h2>
         <h4>A massoterapia é uma forma de terapia que envolve a aplicação de diferentes técnicas de massagem com o objetivo de promover o bem-estar físico e mental. <br /> Ela é utilizada para relaxamento, alívio de tensões musculares, redução do estresse, melhoria da circulação sanguínea e aumento da flexibilidade.</h4> <br />
       </div>

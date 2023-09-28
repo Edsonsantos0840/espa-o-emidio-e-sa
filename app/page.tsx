@@ -202,9 +202,9 @@ export default function Inicio() {
         </div>
         <div className={style.apresentação} >
           <h2>Você sofre desses males? Podemos te ajudar.</h2>
-          <h4>Tanto a massoterapia quanto a psicologia são recursos valiosos para cuidarmos de nós mesmos de maneira integral. <br />Enquanto a massoterapia foca no relaxamento físico, a psicologia nos auxilia a compreender e lidar com as complexidades da mente. <br /> Ao explorar esses espaços, estamos investindo em nosso próprio bem-estar, buscando equilíbrio e qualidade de vida. <br /> <br />
+          <h4>Tanto a massoterapia quanto a psicologia são recursos valiosos para cuidarmos de nós mesmos de maneira integral. Enquanto a massoterapia foca no relaxamento físico, a psicologia nos auxilia a compreender e lidar com as complexidades da mente. Ao explorar esses espaços, estamos investindo em nosso próprio bem-estar, buscando equilíbrio e qualidade de vida. 
 
-            Lembre-se de que cada indivíduo é único, então encontrar a combinação certa de práticas que funcionem para você é essencial. <br />Obrigado por me ouvirem e lembrem-se de cuidar tanto do corpo quanto da mente!
+            Lembre-se de que cada indivíduo é único, então encontrar a combinação certa de práticas que funcionem para você é essencial. Obrigado por me ouvirem e lembrem-se de cuidar tanto do corpo quanto da mente!
 
           </h4>
         </div>
