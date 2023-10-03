@@ -1,11 +1,10 @@
-'use client'
+//Css
 import style from './style/inicio.module.css'
-import Image from 'next/image'
-
-import { useState } from 'react'
+//Componentes
 import Button from '../components/button'
 import Button2 from '../components/button2'
 import Card from '../components/card'
+//Imagens
 import im1 from './image/fibromialgia.png'
 import im2 from './image/estresse e Ansiedade.png'
 import im3 from './image/Recuperação de Lesões 2.png'
@@ -13,19 +12,8 @@ import im4 from './image/depressão3.png'
 import im5 from './image/Circulação Sanguínea.png'
 import im6 from './image/Flexibilidade e Amplitude de Movimento.png'
 import im7 from './image/desenvolvimento Pessoal.png'
-import im8 from './image/10.png'
-
 
 export default function Inicio() {
-  const [mostra1, setMostra1] = useState(false)
-  const [mostra2, setMostra2] = useState(false)
-  const [mostra3, setMostra3] = useState(false)
-  const [mostra4, setMostra4] = useState(false)
-  const [mostra5, setMostra5] = useState(false)
-  const [mostra6, setMostra6] = useState(false)
-  const [mostra7, setMostra7] = useState(false)
-
-
 
   return (
     <main  >
@@ -46,17 +34,15 @@ export default function Inicio() {
         <span>______________</span>
       </div>
 
-
-
       <div className={style.divide}>
-        <div className={style.contem} onMouseOver={() => setMostra1(true)} onMouseOut={() => setMostra1(false)} >
+        <div className={style.contem} >
           <div>
+            {/* Cards */}
             <Card titulo=' Dores no corpo' imagem={im1} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra1 ? style.exibe : style.esconde} >
+          <ul >
             <h2>Dores no corpo</h2>
-
             <li>Limitações na funcionalidade</li>
             <li>Dificuldades no estudos</li>
             <li>Alterações emocionais</li>
@@ -70,14 +56,13 @@ export default function Inicio() {
             <Button texto={'Agende um Horário'} />
           </ul>
         </div>
-        <div className={style.contem} onMouseOver={() => setMostra2(true)} onMouseOut={() => setMostra2(false)} >
+        <div className={style.contem}  >
           <div>
             <Card titulo='Estresse e Ansiedade' imagem={im2} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra2 ? style.exibe : style.esconde} >
+          <ul  >
             <h2>Estresse e Ansiedade</h2>
-
             <li>Doenças Cardiovasculares</li>
             <li>Distúrbios Digestivos</li>
             <li>Problemas Imunológicos</li>
@@ -94,12 +79,12 @@ export default function Inicio() {
       </div>
 
       <div className={style.divide}>
-        <div className={style.contem} onMouseOver={() => setMostra3(true)} onMouseOut={() => setMostra3(false)} >
+        <div className={style.contem}  >
           <div>
             <Card titulo=' Recuperação de Lesões' imagem={im3} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra3 ? style.exibe : style.esconde} >
+          <ul  >
             <h2>Recuperação de Lesões</h2>
             <li>Dor e desconforto</li>
             <li>Inflamação</li>
@@ -114,12 +99,12 @@ export default function Inicio() {
             <Button texto={'Agende um Horário'} />
           </ul>
         </div>
-        <div className={style.contem} onMouseOver={() => setMostra4(true)} onMouseOut={() => setMostra4(false)} >
+        <div className={style.contem} >
           <div>
             <Card titulo=' Depressão, Traumas e Transtornos' imagem={im4} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra4 ? style.exibe : style.esconde} >
+          <ul  >
             <h2>Depressão, Traumas e Transtornos</h2>
             <li>Sofrimento emocional</li>
             <li>Isolamento social</li>
@@ -136,12 +121,12 @@ export default function Inicio() {
         </div>
       </div>
       <div className={style.divide}>
-        <div className={style.contem} onMouseOver={() => setMostra5(true)} onMouseOut={() => setMostra5(false)} >
+        <div className={style.contem} >
           <div>
             <Card titulo='Problemas de circulação sanguínea' imagem={im5} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra5 ? style.exibe : style.esconde} >
+          <ul  >
             <h2>Problemas de circulação sanguínea</h2>
             <li>Dor ou desconforto nas extremidades</li>
             <li>Pele pálida ou azulada</li>
@@ -156,12 +141,12 @@ export default function Inicio() {
             <Button texto={'Agende um Horário'} />
           </ul>
         </div>
-        <div className={style.contem} onMouseOver={() => setMostra6(true)} onMouseOut={() => setMostra6(false)} >
+        <div className={style.contem}  >
           <div>
             <Card titulo=' Reabilitação e recuperação dos movimentos' imagem={im6} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra6 ? style.exibe : style.esconde} >
+          <ul >
             <h2>Reabilitação e recuperação dos movimentos</h2>
             <li>Acidente Vascular Cerebral (AVC)</li>
             <li>Esclerose Múltipla (EM)</li>
@@ -173,18 +158,17 @@ export default function Inicio() {
             <li>Miastenia Gravis</li>
             <li>Distúrbios Musculares Hereditários</li>
             <li>oença de Lou Gehrig</li>
-
             <Button texto={'Agende um Horário'} />
           </ul>
         </div>
       </div>
       <div className={style.divide}>
-        <div className={style.contem} onMouseOver={() => setMostra7(true)} onMouseOut={() => setMostra7(false)} >
+        <div className={style.contem} >
           <div>
             <Card titulo=' Crescimento pessoal' imagem={im7} />
             <h5 >Saiba Mais</h5>
           </div>
-          <ul className={mostra7 ? style.exibe : style.esconde} >
+          <ul  >
             <h2>Crescimento pessoal</h2>
             <li>Medo do Fracasso</li>
             <li>Falta de Autodisciplina</li>
@@ -196,22 +180,17 @@ export default function Inicio() {
             <li>Falta de Clareza</li>
             <li>Zona de Conforto</li>
             <li>Crenças Limitantes</li>
-
             <Button texto={'Agende um Horário'} />
           </ul>
         </div>
         <div className={style.apresentação} >
           <h2>Você sofre desses males? Podemos te ajudar.</h2>
-          <h4>Tanto a massoterapia quanto a psicologia são recursos valiosos para cuidarmos de nós mesmos de maneira integral. Enquanto a massoterapia foca no relaxamento físico, a psicologia nos auxilia a compreender e lidar com as complexidades da mente. Ao explorar esses espaços, estamos investindo em nosso próprio bem-estar, buscando equilíbrio e qualidade de vida. 
+          <h4>Tanto a massoterapia quanto a psicologia são recursos valiosos para cuidarmos de nós mesmos de maneira integral.       Enquanto a massoterapia foca no relaxamento físico, a psicologia nos auxilia a compreender e lidar com as complexidades da mente. Ao explorar esses espaços, estamos investindo em nosso próprio bem-estar, buscando equilíbrio e qualidade de vida.
 
             Lembre-se de que cada indivíduo é único, então encontrar a combinação certa de práticas que funcionem para você é essencial. Obrigado por me ouvirem e lembrem-se de cuidar tanto do corpo quanto da mente!
-
           </h4>
         </div>
       </div>
-      
-       
-  
 
     </main >
   )

@@ -1,86 +1,96 @@
-
-@media (min-width:280px){
-    .hea{
+@media (min-width:280px) {
+    .hea {
         z-index: 0;
         position: relative;
-        background-position-y: 6rem;
-        padding-top: 5rem;
+        background-position-y: 5rem;
+        padding-top: 4rem;
         background-image: url('../image/4.png');
-        background-size: 102.7%;
+        background-size: 137.7%;
         background-repeat: no-repeat;
+        margin: auto;
     }
-    .divisor{
+
+    .divisor {
         display: flex;
-        align-items:baseline;
+        align-items: baseline;
         justify-content: center;
         margin: .2rem;
         padding: 5px;
     }
-    
-    .hea .textHea{
-        width: 98.7vw;
+
+    .hea .textHea {
+        width: 99.7vw;
         background-color: #1240229c;
         min-height: 165px;
     }
-    .hea h1{
+
+    .hea h1 {
         color: yellowgreen;
         padding-top: 9%;
         text-align: start;
         font-family: fantasy;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
         margin-left: 0.5rem;
     }
-    .hea h3{
-        width: 49%;
+
+    .hea h3 {
+        width: 70%;
         color: #DCF2E8;
         text-align: start;
-        font-family: inherit;
+        font-family: 'Caveat', cursive;
         font-weight: 500;
-        font-size: .8rem;
+        font-size: .9rem;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.324);
         margin-bottom: 4%;
-        margin-top: 6%; 
+        margin-top: 1%;
         margin-left: .5rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         display: flex;
         justify-content: center;
-        gap: 20px;
-        margin-left: -35%;
+        gap: 10px;
+        margin-left: -22%;
     }
-    .hea .but button{
-        padding: 3px;
+
+    .hea .but button {
+        padding: 1px;
         background-color: rgb(219, 239, 200);
         color: yellowgreen;
-        font-size: 1rem;
+        font-size: .8rem;
         font-weight: bold;
-        min-width: 100px;
+        min-width: 95px;
         border: 1px solid yellowgreen;
+        font-family: 'Caveat', cursive;
     }
-    .hea .but button:hover{
+
+    .hea .but button:hover {
         background-color: yellowgreen;
-        color:  rgb(255, 255, 255);
-      
+        color: rgb(255, 255, 255);
+
     }
-    .h2{
+
+    .h2 {
         color: var(--primeira-cor);
         font-size: 1rem;
         text-align: center;
+        font-family: 'Caveat', cursive;
     }
-   
-   
-    .divide{
+
+    .divide {
         display: block;
     }
-    .contem{
+
+    .contem {
         margin: auto;
         width: 90%;
         display: block;
         transition: 1.4s;
     }
-    .contem:hover{
+
+    .contem:hover {
         width: 90%;
         justify-content: flex-start;
         border: 2px solid var(--terceira-cor);
@@ -88,20 +98,26 @@
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
         padding: 10px;
         background-color: rgba(172, 255, 47, 0.151);
-        
+
     }
-    .contem:hover h4{
-      font-size: 0rem;
+
+    .contem:hover h4 {
+        font-size: 0rem;
+        font-family: 'Caveat', cursive;
     }
-    .contem:hover h5{
+
+    .contem:hover h5 {
         display: none;
-      }
-    .contem h2{
+    }
+
+    .contem h2 {
         color: yellowgreen;
         text-align: center;
         font-size: 1.3rem;
+        font-family: 'Caveat', cursive;
     }
-    .contem h5{
+
+    .contem h5 {
         display: block;
         margin: 0.3rem auto;
         padding: 3px;
@@ -114,530 +130,786 @@
         margin-top: -13%;
         border-radius: 5px;
         box-shadow: 2px 2px 3px #0000005e;
+        font-family: 'Caveat', cursive;
     }
-    .contem ul{
-       display: none;
-       transition: 2s;
+
+    .contem ul {
+        display: none;
+        transition: 2s;
     }
-    .contem ul li{
+
+    /* controle mostra ou esconde as uls */
+    .contem:hover ul {
+        display: block;
+    }
+
+    .contem ul li {
         font-family: Arial, Helvetica, sans-serif;
-        list-style-type:circle;
+        list-style-type: circle;
         font-size: .8rem;
         margin-left: 1.5rem;
     }
+
     .contem button {
         background-color: yellowgreen;
-        color:  rgb(255, 255, 255);
+        font-family: 'Caveat', cursive;
+        color: rgb(255, 255, 255);
         font-size: 1.5rem;
         width: 95%;
         border-radius: 5px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.379);
         margin: .5rem;
-        }
-        .contem  button:hover{
+    }
+
+    .contem button:hover {
         background-color: rgb(219, 239, 200);
         color: yellowgreen;
         border: 1px solid yellowgreen;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         display: block;
         font-size: 1.2rem;
     }
-    .contem.esconde{
+
+    .contem.esconde {
         display: none;
     }
 
-    .apresentação{
+    .apresentação {
         margin: 1rem auto;
         width: 95%;
-        background-color:rgba(167, 234, 35, 0.412);
+        background-color: rgba(167, 234, 35, 0.412);
         padding: 1.5rem;
         border-radius: 10px;
     }
-    .apresentação h2{
+
+    .apresentação h2 {
         color: yellowgreen;
         text-align: center;
         font-size: 1.3rem;
     }
-    .apresentação h4{
-       font-family: Arial, Helvetica, sans-serif;
+
+    .apresentação h4 {
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
-@media (min-width:360px){
-    .hea{
+@media (min-width:360px) {
+    .hea {
         background-size: 108.7%;
     }
- 
+
+    .hea h1 {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .hea h3 {
+        width: 53%;
+        font-size: .9rem;
+        margin-bottom: 4%;
+        margin-top: 6%;
+        margin-left: .5rem;
+    }
+
+    .hea .but {
+        margin-top: -3%;
+        gap: 20px;
+        margin-left: -35%;
+    }
+
+    .hea .but button {
+        padding: 3px;
+        font-size: 1rem;
+        min-width: 100px;
+    }
+
 }
 
-@media (min-width:410px){
-    .hea h3{
+@media (min-width:410px) {
+    .hea h3 {
         width: 53%;
         font-size: 1rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-left: -40%;
     }
- 
-}
-@media (min-width:512px){
-    .hea{
-        background-position-y: 4rem;
-        padding-top: 4rem;
-        background-image: url('../image/4.png');
-   
-    }
-    .hea h1{
-        font-size: 1.8rem;
-    }
-    .hea h3{
-        font-size: 1.2rem;
-    }
-    .h2{
-        font-size: 1.3rem;
-    }
-    .hea .but{
-        margin-left: -52%;
-    }
- 
-}
-@media (min-width:540px){
-    .hea{
-        background-position-y: 4rem;
-        padding-top: 4rem;
-        background-image: url('../image/4.png');
-   
-    }
-    .hea .textHea{
-        min-height: 226px;
-    }
-    .hea h1{
-        font-size: 1.8rem;
-    }
-    .hea h3{
-        font-size: 1.2rem;
-    }
-    .h2{
-        font-size: 1.3rem;
-    }
-    .hea .but{
-        margin-left: -55%;
-    }
- 
+
 }
 
-@media (min-width: 768px){
-    .hea{
+@media (min-width:512px) {
+    .hea {
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('../image/4.png');
+
+    }
+
+    .hea h1 {
+        font-size: 1.8rem;
+    }
+
+    .hea h3 {
+        font-size: 1.2rem;
+    }
+
+    .h2 {
+        font-size: 1.3rem;
+    }
+
+    .hea .but {
+        margin-left: -52%;
+    }
+
+}
+
+@media (min-width:540px) {
+    .hea {
+        background-position-y: 4rem;
+        padding-top: 4rem;
+        background-image: url('../image/4.png');
+
+    }
+
+    .hea .textHea {
+        min-height: 226px;
+    }
+
+    .hea h1 {
+        font-size: 1.8rem;
+    }
+
+    .hea h3 {
+        font-size: 1.2rem;
+    }
+
+    .h2 {
+        font-size: 1.3rem;
+    }
+
+    .hea .but {
+        margin-left: -55%;
+    }
+
+    .apresentação h4 {
+        font-size: .9rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .hea {
         background-position-y: 5rem;
         padding-top: 5rem;
         background-image: url('../image/4.png');
     }
 
-    .hea .textHea{
+    .hea .textHea {
         min-height: 320px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 2.8rem;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
         font-size: 1.5rem;
     }
-    .h2{
+
+    .h2 {
         font-size: 1.5rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -43%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 4px;
         font-size: 1.1rem;
         min-width: 200px;
     }
-    .divide{
+
+    .divide {
         display: flex;
         padding: 6px;
     }
-    .contem{
+
+    .contem {
         margin: auto;
         width: 40%;
         display: flex;
         transition: 1.4s;
     }
-    .contem h5{
+
+    .contem h5 {
         display: none;
-    }    
-    .apresentação{
+    }
+
+    .apresentação {
         width: 45%;
         padding: 1rem;
     }
-    .apresentação h2{
+
+    .apresentação h2 {
         font-size: 1rem;
     }
-    .apresentação h4{
-       font-size: .8rem;
+
+    .apresentação h4 {
+        font-size: 1rem;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         font-size: 1.1rem;
         margin-left: -1rem;
     }
- 
+
+    .contem ul li {
+        font-size: .9rem;
+        margin-left: -1.5rem;
+    }
+
+    .contem button {
+        width: 130%;
+        margin-left: -1.5rem;
+    }
+
 }
-@media (min-width: 820px){
-    .hea{
+
+@media (min-width: 820px) {
+    .hea {
         background-position-y: 5rem;
         padding-top: 5rem;
         background-image: url('../image/4.png');
     }
 
-    .hea .textHea{
+    .hea .textHea {
         min-height: 320px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 2.8rem;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
         font-size: 1.5rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -47%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 4px;
         font-size: 1.1rem;
         min-width: 200px;
     }
-    .divide{
+
+    .divide {
         display: flex;
         padding: 6px;
     }
-    .contem{
+
+    .contem {
         margin: auto;
         width: 40%;
         display: flex;
         transition: 1.4s;
     }
-    .apresentação{
+
+    .apresentação {
         width: 45%;
         padding: 1rem;
     }
-    .apresentação h2{
+
+    .apresentação h2 {
         font-size: 1.3rem;
     }
-    .apresentação h4{
-       font-size: .9rem;
+
+    .apresentação h4 {
+        font-size: .9rem;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         font-size: 1.1rem;
         margin-left: -1rem;
     }
+
+    .contem ul li {
+        font-size: .9rem;
+        margin-left: -1.5rem;
+    }
+
+    .contem h2 {
+        margin-left: -1.5rem;
+    }
+
+    .contem button {
+        margin-left: -1.5rem;
+        width: 110%;
+    }
+
 }
-@media (min-height: 360px) and (orientation: landscape){
-    .hea h1{
+
+@media (min-height: 280px) and (orientation: landscape) {
+    .contem h2 {
+        margin-left: -2.5rem;
+    }
+
+    .contem {
+        display: flex;
+    }
+
+    .contem ul li {
+        font-size: .8rem;
+        margin-left: -2rem;
+    }
+
+    .contem button {
+        margin: 0px;
+        margin-left: -2.5rem;
+        font-size: 1.1rem;
+        width: 120%;
+    }
+}
+
+@media (min-height: 360px) and (orientation: landscape) {
+    .hea h1 {
         font-size: 2.8rem;
         margin-top: -2%;
     }
-    .hea .textHea{
+
+    .hea .textHea {
         min-height: 326px;
-    } 
-    .hea h3{
+    }
+
+    .hea h3 {
         width: 50%;
         font-size: 1.5rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -41%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 4px;
         font-size: 1.1rem;
         min-width: 200px;
     }
-    .divide{
+
+    .divide {
         display: flex;
         padding: 6px;
     }
-    .contem{
+
+    .contem {
         margin: auto;
         width: 40%;
         display: flex;
         transition: 1.4s;
     }
-    .contem h5{
+
+    .contem h5 {
         display: none;
-    }   
-    .apresentação{
+    }
+
+    .apresentação {
         width: 48%;
     }
-    .apresentação h2{
+
+    .apresentação h2 {
         font-size: 1rem;
     }
-    .apresentação h4{
-       font-size: .8rem;
+
+    .apresentação h4 {
+        font-size: .8rem;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         font-size: 1.1rem;
         margin-left: -2rem;
     }
-
 }
-@media (min-height: 375px) and (orientation: landscape){
-    .hea{
+
+@media (min-height: 375px) and (orientation: landscape) {
+    .hea {
         background-position-y: 4rem;
         padding-top: 4rem;
         background-image: url('../image/4.png');
     }
 
-    .hea .textHea{
+    .hea .textHea {
         min-height: 299px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 2.8rem;
         margin-top: -3%;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
         font-size: 1.5rem;
     }
-    .h2{
+
+    .h2 {
         font-size: 1.5rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -34%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 4px;
         font-size: 1.1rem;
         min-width: 200px;
     }
-    .divide{
+
+    .divide {
         display: flex;
         padding: 6px;
     }
-    .contem{
+
+    .contem {
         margin: auto;
         width: 40%;
         display: flex;
         transition: 1.4s;
     }
-    .contem h5{
+
+    .contem h5 {
         display: none;
-    }    
-    .apresentação{
+    }
+
+    .apresentação {
         width: 45%;
         padding: 1rem;
     }
-    .apresentação h2{
+
+    .apresentação h2 {
         font-size: 1rem;
     }
-    .apresentação h4{
-       font-size: .8rem;
+
+    .apresentação h4 {
+        font-size: .8rem;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         font-size: 1.1rem;
         margin-left: -2rem;
     }
 }
-@media (min-height: 390px) and (orientation: landscape){
-    .hea h1{
+
+@media (min-height: 390px) and (orientation: landscape) {
+    .hea h1 {
         font-size: 2.8rem;
         margin-top: -1%;
     }
-    .hea .textHea{
+
+    .hea .textHea {
         min-height: 345px;
-    } 
-    .hea .but{
+    }
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -48%;
     }
 }
 
-@media (min-width: 900px){
-    .hea .textHea{
+@media (min-width: 900px) {
+    .hea {
+        background-position-y: 5rem;
+        padding-top: 5rem;
+        background-image: url('../image/4.png');
+    }
+
+    .hea .textHea {
         min-height: 382px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 3rem;
     }
-    .hea h3{
-        width: 50%;
+
+    .hea h3 {
+        width: 57%;
         font-size: 1.8rem;
     }
-    .h2{
+
+    .h2 {
         font-size: 1.8rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
-        margin-left: -52%;
+        margin-left: -50%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 6px;
         font-size: 1.4rem;
         min-width: 200px;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         margin-left: -1rem;
     }
- 
+
 }
-@media (min-height: 410px) and (orientation: landscape){
-    .hea h1{
+
+@media (min-height: 410px) and (orientation: landscape) {
+    .hea h1 {
         font-size: 2.8rem;
         margin-top: -1%;
     }
-    .hea .textHea{
+
+    .hea .textHea {
         min-height: 355px;
-    } 
-    .hea .but{
+    }
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -51%;
     }
+
+    .contem h2 {
+        margin-left: -4.5rem;
+    }
 }
-@media (min-height: 512px) and (orientation: landscape){
- 
-    .hea .textHea{
+
+@media (min-height: 512px) and (orientation: landscape) {
+
+    .hea .textHea {
         min-height: 310px;
-    } 
-    .hea .but{
+    }
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -39%;
     }
-    .contem .exibe{
-        margin-left: -1rem;
-    }
-}
-@media (min-height: 540px) and (orientation: landscape){
-    .hea h1{
-        font-size: 2.8rem;
-        margin-top: -3%;
-    }
-    .hea .textHea{
-        min-height: 310px;
-    } 
-    .hea .but{
-        margin-top: -3%;
-        margin-left: -39%;
-    }
-    .contem .exibe{
+
+    .contem .exibe {
         margin-left: -1rem;
     }
 }
 
-@media (min-width: 1024px){
-    .hea .textHea{
+@media (min-height: 540px) and (orientation: landscape) {
+    .hea h1 {
+        font-size: 2.8rem;
+        margin-top: -3%;
+    }
+
+    .hea .textHea {
+        min-height: 310px;
+    }
+
+    .hea .but {
+        margin-top: -3%;
+        margin-left: -39%;
+    }
+
+    .contem .exibe {
+        margin-left: -1rem;
+    }
+
+    .contem ul li {
+        font-size: .8rem;
+        margin-left: -1.3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hea {
+        background-position-y: 5rem;
+        padding-top: 5rem;
+        background-image: url('../image/4.png');
+    }
+
+    .hea .textHea {
         min-height: 426px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 3.5rem;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
-        font-size:2.2rem;
+        font-size: 2.2rem;
     }
-    .h2{
+
+    .h2 {
         font-size: 2rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -47%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 6px;
         font-size: 1.5rem;
         min-width: 250px;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         margin-left: -1rem;
     }
- 
+
+    .contem h2 {
+        margin-left: -2.5rem;
+    }
+
+    .contem button {
+        margin: 0px;
+        margin-left: -2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .apresentação h4 {
+        font-size: 1rem;
+    }
+
+    .apresentação h2 {
+        font-size: 1.7rem;
+    }
+
 }
-@media (min-height: 820px) and (orientation: landscape){
-    .hea .textHea{
+
+@media (min-height: 820px) and (orientation: landscape) {
+    .hea {
+        background-position-y: 5rem;
+        padding-top: 5rem;
+        background-image: url('../image/4.png');
+    }
+
+    .hea .textHea {
         min-height: 506px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 3.5rem;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
-        font-size:2.2rem;
+        font-size: 2.2rem;
     }
-    .h2{
+
+    .h2 {
         font-size: 2rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -55%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 6px;
         font-size: 1.5rem;
         min-width: 250px;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         margin-left: -1rem;
     }
 }
-@media (min-width: 1280px){
-    .hea .textHea{
+
+@media (min-width: 1280px) {
+    .hea {
+        background-position-y: 5rem;
+        padding-top: 5rem;
+        background-image: url('../image/4.png');
+    }
+
+    .hea .textHea {
         min-height: 536px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 4rem;
         margin-left: 6%;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
-        font-size:2.2rem;
+        font-size: 2.2rem;
         margin-left: 6%;
     }
-    .h2{
+
+    .h2 {
         font-size: 2rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -47%;
     }
-    .hea .but button{
+
+    .hea .but button {
         padding: 8px;
         font-size: 1.7rem;
         min-width: 250px;
     }
-    .contem .exibe{
+
+    .contem .exibe {
         margin-left: 0rem;
     }
- 
+
+    .contem h2 {
+        margin-left: -3rem;
+    }
+
+    .contem ul li {
+        font-size: 1.1rem;
+        margin-left: -3rem;
+    }
+
+    .contem button {
+        margin-left: -3rem;
+    }
+
 }
-@media (min-height: 900px) and (orientation: landscape){
-    .hea .textHea{
+
+@media (min-height: 900px) and (orientation: landscape) {
+    .hea {
+        background-position-y: 5rem;
+        padding-top: 5rem;
+        background-image: url('../image/4.png');
+    }
+
+    .hea .textHea {
         min-height: 536px;
     }
-  
-    .hea h1{
+
+    .hea h1 {
         font-size: 4rem;
         margin-left: 2%;
     }
-    .hea h3{
+
+    .hea h3 {
         width: 50%;
-        font-size:2.2rem;
+        font-size: 2.2rem;
         margin-left: 2%;
     }
-    .h2{
+
+    .h2 {
         font-size: 2rem;
     }
-    .hea .but{
+
+    .hea .but {
         margin-top: -3%;
         margin-left: -58%;
     }
